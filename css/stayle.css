@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+figure{
+display: inline-block;
+}
+figure{
+    width: 20%; 
+}
+img, figcaption{
+ width: 70%;
+}
