@@ -9,17 +9,28 @@ div{
 text-align: center;
 }
 
-figure{
-display: inline-block;
-
-}
 
 figure{
+    display: inline-block;
+    position: relative;
     width: 25%; 
     margin-right: 20px;
     margin-top: 30px;
 }
 
+.cuore{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+}
+
+.cuore::before{
+    content: '\2665' ;
+    font-size: 30px;
+}
 img{
     width: 100%;
    }
