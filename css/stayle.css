@@ -5,10 +5,13 @@
     font-family: arial
 }
 
-div{
-text-align: center;
+main{
+    width: 80%;
+    margin: 30px auto;
 }
-
+.centro{
+    text-align: center;
+}
 
 figure{
     display: inline-block;
@@ -18,15 +21,27 @@ figure{
     margin-top: 30px;
 }
 
+.over{
+    width: 100%;
+    height: 100%;
+    display: none;
+    
+}
+
+figure:hover .over  {
+    display: block;
+
+}
+
 .cuore{
     position: absolute;
-    top: 20px;
+    top: 5%;
     right: 0px;
     background-color: white;
 }
 .etichette{
     position: absolute;
-    bottom: 80px;
+    bottom: 15%;
     left: 0px;
 
 }
